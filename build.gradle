@@ -41,9 +41,17 @@ dependencies {
     // swagger - springdoc
     implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.3.0'
 
-    // asertJ
+    // assertJ
     testImplementation group: 'org.assertj', name: 'assertj-core', version: '3.21.0'
 
+}
+
+tasks.register('copyPrivate'){
+    copy{
+        from './mission-board'
+        include "application.yml"
+        into 'src/main/resources'
+    }
 }
 
 tasks.named('bootBuildImage') {

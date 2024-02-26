@@ -2,7 +2,6 @@ package org.ohgiraffers.board.service;
 
 import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
-import org.hibernate.sql.Delete;
 import org.ohgiraffers.board.domain.dto.*;
 import org.ohgiraffers.board.domain.entity.Post;
 import org.ohgiraffers.board.repository.PostRepository;
