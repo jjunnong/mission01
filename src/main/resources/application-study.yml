@@ -15,7 +15,7 @@ spring:
   # Mysql 연결을 위한 설정들
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/ohgiraffers_db?serverTimezone=Asia/Seoul
+    url: jdbc:mysql://ec2-54-180-97-48.ap-northeast-2.compute.amazonaws.com:3306/ohgiraffers_db?serverTimezone=Asia/Seoul
     username: ohgiraffers
     password: ohgiraffers
 
