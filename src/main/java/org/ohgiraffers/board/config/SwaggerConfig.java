@@ -7,7 +7,7 @@ import org.springdoc.core.models.GroupedOpenApi;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-@OpenAPIDefinition(info = @Info(title = "Board Mission🤔", description = "Board Mission Api 명세", version = "v1"))
+@OpenAPIDefinition(info = @Info(title = "jjunnong-board✌", description = "Board Mission Api 명세", version = "v1"))
 
 @Configuration
 public class SwaggerConfig {
